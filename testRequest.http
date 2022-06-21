@@ -1,0 +1,38 @@
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "name": "ho22anglocdnfafa95",
+  "age": 510,
+  "breed": "Cun12dga3cun"
+}
+
+###
+
+GET http://localhost:3000/cats
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/cats/22/dogs/45
+Content-Type: application/json
+
+### 
+POST http://localhost:3000/cats/meo/2
+Content-Type: application/json
+
+{
+  "name": "error 2",
+  "age": 5,
+  "breed": "error 2"
+}
+
+###
+POST http://localhost:3000/cats/create2
+Content-Type: application/json
+
+{
+  "name": "error 2",
+  "age": 5,
+  "breed": "error 2"
+}
